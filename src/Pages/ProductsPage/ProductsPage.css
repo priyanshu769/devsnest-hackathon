@@ -4,6 +4,11 @@
     flex-wrap: wrap;
 }
 
+.productCardLink {
+    text-decoration: none;
+    color: black;
+}
+
 .productCard {
     width: 15rem;
     margin: 0.5rem;
@@ -26,6 +31,10 @@
     background-color: #264653;
 }
 
+.productCardBtn:disabled {
+    color: #666565
+}
+
 @media only screen and (max-width: 600px) {
     .productsContainer {
         display: flex;
@@ -39,7 +48,7 @@
     }
 
     .productDetail {
-        font-size: small;
+        font-size: 6px;
     }
   }
 
@@ -56,7 +65,7 @@
     }
 
     .productDetail {
-        font-size: small;
+        font-size: 6px;
     }
   }
 
@@ -73,6 +82,6 @@
     }
 
     .productDetail {
-        font-size: smaller;
+        font-size: 6px;
     }
   }

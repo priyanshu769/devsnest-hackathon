@@ -1,0 +1,33 @@
+.productContainer {
+    width: 10rem;
+}
+
+.productPageImg {
+    max-width: 100%;
+}
+
+.sizeBtn {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background: none;
+    border: 2px solid #000000;
+}
+
+.reviewRating {
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px) {
+    .productContainer {
+        width: 15rem;
+    }
+
+    .productDetail {
+        font-size: 6px;
+    }
+
+    .sizesAvailable {
+        display: flex;
+        justify-content: space-between;
+    }
+  }

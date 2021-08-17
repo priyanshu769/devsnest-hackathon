@@ -42,3 +42,37 @@
         font-size: small;
     }
   }
+
+  @media only screen and (max-width: 400px) {
+    .productsContainer {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .productCard {
+        width : 9rem;
+        margin: 0.2rem;
+    }
+
+    .productDetail {
+        font-size: small;
+    }
+  }
+
+  @media only screen and (max-width: 300px) {
+    .productsContainer {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .productCard {
+        width : 7rem;
+        margin: 0.2rem;
+    }
+
+    .productDetail {
+        font-size: smaller;
+    }
+  }
